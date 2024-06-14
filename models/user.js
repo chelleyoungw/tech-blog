@@ -1,4 +1,4 @@
-//TODO: Copied and pasted from MVC activity 24
+//Copied and pasted from MVC activity 24
 
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");

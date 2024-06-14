@@ -69,7 +69,7 @@ router.get("/signup", (req, res) => {
   res.render("signup");
 });
 
-// TODO: Add notation
+
 router.get("/editPost:postId", withAuth, async (req, res) => {
   try {
     const postId = req.params.postId; // Extract the postId parameter from the URL
