@@ -7,8 +7,6 @@ Week-14 Challenge
 
  * [Description](#description)
 
- * [Live Screen Recording of Application Functionality](#live-screen-recording-of-application-functionality)
-
  * [Technologies Used](#technologies-used)
 
  * [Installation](#installation)
@@ -17,8 +15,6 @@ Week-14 Challenge
 
  * [Contributing](#contributing)
 
- * [Test Instructions](#test-instructions)
-
  * [License](#license)
 
  * [Questions](#questions)
@@ -26,11 +22,6 @@ Week-14 Challenge
 ## Description
 
 A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. Follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. 
-
-## Live Screen Recording of Application Functionality
-
-(<iframe src="https://drive.google.com/file/d/1gTwoiQUMLh4eKgdcF_lkrZJUPoxRVds5/preview" width="640" height="480"></iframe>)
-
 
 ## Technologies Used
 
@@ -42,51 +33,20 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 
 - Dotenv v8.2.0
 - Express v4.17.1
-- MySQL2 v2.1.0
-- Sequelize v5.21.7
+- MySQL2 v2.2.5
+- Sequelize v6.3.5
+- bcrypt v5.0.0
+- Connect Session Sequelize v7.0.4
+- Express Handlebars v5.2.0
+- Express Session v1.17.1
+- Tailwindcss v3.4.4
 
 ## Installation
 
-1. Clone the repo:
-   git clone https://github.com/chelleyoungw/orm-e-commerce-back-end.git
+I was unable to successfully deploy the application onto Heroku and running across many errors and was unsuccessful in getting it to render the front-end.
 
-2. Open in VS Code. If you do not have VS code you must install it.
-
-3. Using the terminal, install the following version of node.js.
-```
-npm install -g node@2.0.3
-```
-4. Once node.js v16 is installed, in the terminal, utilize the following command to initialize and create a package.json where project files will be stored.
-```
-   npm init -y 
-```
-
-5. Next, use the terminal to run the following command to install the dependencies associated with this application.
-```
-   npm i
-```
-6. The package.json file should have the following scripts:
-```
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
-  }
-```
-6. Once the dependencies are installed, you will create the database. Navigate to the directory db that contains the schema.sql file. Once there, open a MySQL shell to run the following command.
-```
-SOURCE schema.sql;
-```
-7. Now that the database is created, you will need to seed the database. This will also create the model structure for the tables inside the database. Navigate to the root directory and open a terminal. Run the following commands to seed the database.
-```
-   node seed/index.js
-```
-8. Now that the database is seeded, to run the application, navigate to the root directory server.js. Open a terminal and invoke the application with the following command.
-```
-   node server.js
-```
-9. You can open an API development platform, like Insomnia (used for this demonstration video) to view and interact with the database.
+[Link to Repository](https://github.com/chelleyoungw/tech-blog.git)
+[Link to Heroku URL]()
 
 ## Authors and Acknowledgements
 
@@ -96,10 +56,6 @@ SOURCE schema.sql;
 ## Contributing
 
 Open to collaboration, if you choose to do so open an issue and modify any changes you would like to see on a feature branch and wait for approval before merging to the main branch.
-
-## Test Instructions
-
-Currently no unit testing written yet for this application.
 
 ## License
 
