@@ -46,7 +46,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 I was unable to successfully deploy the application onto Heroku and running across many errors and was unsuccessful in getting it to render the front-end.
 
 [Link to Repository](https://github.com/chelleyoungw/tech-blog.git)
-[Link to Heroku URL]()
+[Link to Heroku URL]( https://git.heroku.com/my-tech-blog-log.git )
 
 ## Authors and Acknowledgements
 
